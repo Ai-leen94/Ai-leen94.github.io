@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>svg-спрайты</title>
+    <link rel="stylesheet" href="img/SPRITE.svg">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="top">
+            <h1 class="general-title">Как это работает?</h1>
+            <ul class="flex list-reset top-list">
+                <li class="top-item">
+                    <svg width="375" height="288" viewBox="0 0 375 288">
+                        <use xlink:href="img/sprite.svg#coffee" />
+                    </svg>
+                    <h3>Утренний <span class="span">кофе</span></h3>
+                    <p class="top-descr">Кофеин воздействует на центральную нервную систему как природный “будильник”.
+                        Поэтому мы быстрее просыпаемся.</p>
+                </li>
+
+                <li class="top-item">
+                    <svg width="375" height="288" viewBox="0 0 375 288">
+                        <use xlink:href="img/sprite.svg#meditating" />
+                    </svg>
+                    <h3>Час <span class="span">медитации</span></h3>
+                    <p class="top-descr">После практик оба полушария мозга начинают работать сбалансированно — это
+                        привносит порядок в вашу жизнь.</p>
+                </li>
+
+                <li class="top-item">
+                    <svg width="375" height="288" viewBox="0 0 375 288">
+                        <use xlink:href="img/sprite.svg#sprinting" />
+                    </svg>
+                    <h3>Вперед к <span class="span">свершениям</span></h3>
+                    <p class="top-descr">Ресурсы каждого человека ограничены, поэтому нам необходимо беречь себя и
+                        вовремя останавливаться.</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="bottom">
+            <div class="bottom-left">
+                <h2>Интеграция со сторонними сервисами</h2>
+                <p class="bottom-descr">Поможет всегда оставаться в курсе всех событий, быть максимально эффективным на
+                    протяжении всего рабочего дня, контролировать свои задачи и не опоздать на запланированные встречи.
+                </p>
+
+            </div>
+
+            <div class="bottom-right">
+                <div class="ellipse"></div>
+
+                <ul class="flex list-reset bottom-right__list right-list">
+                    <li class="bottom-right__item">
+                        <svg width="70" height="70" viewBox="0 0 70 70">
+                            <use xlink:href="img/sprite.svg#facebook-3 logo" />
+                        </svg>
+                    </li>
+
+                    <li class="bottom-right__item right-item">
+                        <svg width="70" height="70" viewBox="0 0 70 70">
+                            <use xlink:href="img/sprite.svg#Subtract" />
+                        </svg>
+                    </li>
+
+                    <li class="bottom-right__item">
+                        <svg width="70" height="70" viewBox="0 0 70 70">
+                            <use xlink:href="img/sprite.svg#worklio-icon logo" />
+                        </svg>
+                    </li>
+
+                    <li class="bottom-right__item">
+                        <svg width="70" height="70" viewBox="0 0 70 70">
+                            <use xlink:href="img/sprite.svg#dropbox" />
+                        </svg>
+                    </li>
+                </ul>
+
+                <ul class="flex list-reset bottom-left__list left-list">
+
+                    <li class="bottom-left__item">
+                        <svg width="70" height="70" viewBox="0 0 70 70">
+                            <use xlink:href="img/sprite.svg#Google logo" />
+                        </svg>
+                    </li>
+
+                    <li class="bottom-left__item">
+                        <svg width="70" height="70" viewBox="0 0 70 70">
+                            <use xlink:href="img/sprite.svg#Subtract-2" />
+                        </svg>
+                    </li>
+
+                    <li class="bottom-left__item">
+                        <svg width="70" height="70" viewBox="0 0 70 70">
+                            <use xlink:href="img/sprite.svg#slack logo" />
+                        </svg>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
